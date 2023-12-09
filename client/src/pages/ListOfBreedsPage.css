@@ -1,0 +1,11 @@
+.list-of-breeds-page {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.552), rgba(255, 255, 255, 0.771)), url('https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2021/06/24/65b32749-81c3-4ba5-b735-d349eb1f135e_3ba91999.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.list-of-breeds-page h1, .list-of-breeds-page p {
+    text-align: center;
+}
