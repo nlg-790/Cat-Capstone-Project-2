@@ -19,3 +19,18 @@
 .random-cat-btn:hover {
     background-color: #f5f5dc;
 }
+
+.images-page h1 {
+    font-size: 3em;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .images-page p {
+    font-size: 2em;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    color: rgba(30, 30, 30, 0.59);
+    text-align: center;
+  }
