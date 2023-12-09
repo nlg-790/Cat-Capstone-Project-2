@@ -1,11 +1,10 @@
-// HomePage.js
-// HomePage.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './HomePage.css';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="home-page">
       <header className="App-header">
         <h1>The Cat Interface</h1>
         <nav>
@@ -18,7 +17,7 @@ const HomePage = () => {
           </ul>
         </nav>
       </header>
-      <h2>Explore Various Cat Breeds and More!</h2>
+      <h2>The Internet Loves Cats. So Why Not Have Them In One Place?</h2>
     </div>
   );
 };
