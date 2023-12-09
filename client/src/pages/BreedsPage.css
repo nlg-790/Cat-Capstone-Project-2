@@ -1,0 +1,33 @@
+.breeds-page {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.881), rgba(255, 255, 255, 0.297)), url('https://images.adsttc.com/media/images/5e83/df00/b357/6551/a700/01ee/newsletter/KC_G_ThePinkHouse-082.jpg?1585700594');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+}.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-container input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 30%; 
+}
+
+.search-container button {
+    padding: 8px 16px;
+}
+
+.search-container h1 {
+    font-size: 46px;
+}
+
+.search-container p {
+    font-size: 20px;
+}

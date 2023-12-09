@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './BreedsPage.css';
 
 const BreedsPage = () => {
   const [breeds, setBreeds] = useState([]);
@@ -27,16 +28,18 @@ const BreedsPage = () => {
   };
 
   return (
-    <div>
-      <h1>Breed Search!</h1>
-      <p>Type a Breed Below to Learn All About That Breed!</p>
-      <input
-        type="text"
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-        placeholder="Search for cat breeds"
-      />
-      <button onClick={handleSearch}>Search</button>
+    <div className='breeds-page'>
+      <div className='search-container'>
+        <h1>Breed Search!</h1>
+        <p>Type a Breed Below to Learn All About That Breed!</p>
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search for cat breeds"
+        />
+        <button onClick={handleSearch}>Search</button>
+      </div>
       {hasSearched && filteredBreeds && filteredBreeds.map(breed => (
         <div key={breed.id}>
           <h2>{breed.name}</h2>

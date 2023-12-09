@@ -1,5 +1,6 @@
-body {
-    background-color: #e88585; 
+.home-page {
+    background-color: #e88585;
+    min-height: 100vh; 
     margin: 0;
 }
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './FactsPage.css';
 
 const FactsPage = () => {
   const [breeds, setBreeds] = useState([]);
@@ -28,7 +29,7 @@ const FactsPage = () => {
   };
 
   return (
-    <div>
+    <div className='facts-page'>
       <h1>Cat Facts!</h1>
       <p>Get Ready to Be Surprised by Clicking on Get Random Cat Fact!</p>
       <button onClick={handleRandomFact}>Get Random Cat Fact</button>
