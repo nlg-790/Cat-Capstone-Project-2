@@ -3,4 +3,28 @@
     min-height: 100vh;
     background: linear-gradient(to right, #8b4513, #FFF8DC); 
     background-attachment: fixed;
+    padding: 20px;
+}
+
+.scattered-images-page h1 {
+    font-size: 3em; 
+    color: #FF6347; 
+    background-color: #FFFFE0; 
+    display: inline-block; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    margin: 20px 0; 
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 -5px;
+}
+
+.images-container img {
+    width: calc(20% - 10px); 
+    margin: 5px; 
+    height: auto; 
 }

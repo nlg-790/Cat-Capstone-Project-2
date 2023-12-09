@@ -30,8 +30,8 @@ const BreedsPage = () => {
   return (
     <div className='breeds-page'>
       <div className='search-container'>
-        <h1>Breed Search!</h1>
-        <p>Type a Breed Below to Learn All About That Breed!</p>
+        <h1>Feline Breed Search</h1>
+        <p>Type a Breed Below to Learn All About It!</p>
         <input
           type="text"
           value={searchQuery}

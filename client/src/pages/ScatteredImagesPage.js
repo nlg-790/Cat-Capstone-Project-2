@@ -24,10 +24,9 @@ const ScatteredImagesPage = () => {
   return (
     <div className='scattered-images-page'>
       <h1>10 Cats for You Because You're Awesome! </h1>
-      <button><Link to="/">Back to Home</Link></button> 
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+      <div className='images-container'>
         {images.map(image => (
-          <img key={image.id} src={image.url} alt="Cat" style={{ width: '200px', margin: '10px' }} />
+          <img key={image.id} src={image.url} alt="Cat" />
         ))}
       </div>
       <button><Link to="/">Back to Home</Link></button> 

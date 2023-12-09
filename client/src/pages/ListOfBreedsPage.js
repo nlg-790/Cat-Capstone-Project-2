@@ -18,18 +18,18 @@ const ListOfBreedsPage = () => {
 
   return (
     <div className='list-of-breeds-page'>
-      <h1>Breed List!</h1>
-        <p>Here's a Large List of Various Feline Breeds!</p>
-        <button><Link to="/">Back to Home</Link></button> 
-        {breeds.map(breed => (
-          <div key={breed.id}>
-            <h2>{breed.name}</h2>
-            <p>{breed.description}</p>
-          </div>
-        ))}
-        <button><Link to="/">Back to Home</Link></button> 
-      </div>
-    );
+      <h1>Breed List</h1>
+      <p className='intro-text'>Here's a Large List of Various Feline Breeds</p>
+      <button><Link to="/">Back to Home</Link></button> 
+      {breeds.map(breed => (
+        <div key={breed.id} className=''breed-container>
+          <h2>{breed.name}</h2>
+          <p>{breed.description}</p>
+        </div>
+      ))}
+      <button><Link to="/">Back to Home</Link></button> 
+    </div>
+  );
 };
 
 export default ListOfBreedsPage;
