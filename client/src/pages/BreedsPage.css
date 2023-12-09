@@ -21,13 +21,36 @@
 }
 
 .search-container button {
-    padding: 8px 16px;
+    padding: 10px 18px;
+    background-color: #ffb6c1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #ff69b4; 
 }
 
 .search-container h1 {
     font-size: 46px;
+    color: #ff1493;
+    font-family: 'Arial Rounded MT Bold', sans-serif; 
+}
+
+.search-container h1:hover {
+    color: #ff8cc9;
 }
 
 .search-container p {
     font-size: 20px;
+    color: #2f2f2f; 
 }
+
+.search-container p:hover {
+    color: #6f6f6f;
+}
+
+
+

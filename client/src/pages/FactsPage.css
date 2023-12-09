@@ -7,7 +7,27 @@
     text-align: center;
 }
 
-.facts-btn {
+.facts-page h1 {
+    font-size: 3em; 
+    color: #00008b; 
+    margin-bottom: 20px;
+}
+
+.facts-page h1:hover {
+    color: #87ceeb; 
+}
+
+.facts-page p {
+    color: #00008b;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.facts-page p:hover {
+    color: #87ceeb; 
+}
+
+.facts-page .facts-btn {
     padding: 20px 30px; 
     background-color: #86ebff; 
     color: black;
@@ -16,3 +36,11 @@
     cursor: pointer;
     margin-top: 10px;
 }
+
+.facts-page .facts-btn:hover {
+    background-color: #b3f0ff; 
+}
+
+
+
+
