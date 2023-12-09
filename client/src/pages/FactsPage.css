@@ -1,8 +1,18 @@
 .facts-page {
-    background-image: url('https://cdna.artstation.com/p/assets/images/images/006/058/656/large/prompiriya-kengz-88888fn.jpg?1495725634');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.881), rgba(255, 255, 255, 0.297)), url('https://www.futurity.org/wp/wp-content/uploads/2015/06/cat_scholar_1170.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    
+    text-align: center;
+}
+
+.facts-btn {
+    padding: 20px 30px; 
+    background-color: #86ebff; 
+    color: black;
+    border-radius: 5px; 
+    font-size: 20px; 
+    cursor: pointer;
+    margin-top: 10px;
 }

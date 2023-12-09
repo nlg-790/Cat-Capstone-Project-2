@@ -1,0 +1,21 @@
+.images-page {
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #d2b48c, #808080);
+    background-attachment: fixed;
+}
+
+.random-cat-btn {
+    padding: 10px 20px; /* Increase button size */
+    background-color: #f5f5dcae; /* Fancy green background */
+    color: black; /* White text color */
+    /* border: none; */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 25px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Margin on top for spacing */
+}
+
+.random-cat-btn:hover {
+    background-color: #f5f5dc;
+}

@@ -1,0 +1,6 @@
+.scattered-images-page {
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #8b4513, #FFF8DC); 
+    background-attachment: fixed;
+}

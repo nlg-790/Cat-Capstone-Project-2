@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './ScatteredImagesPage.css';
 
 const ScatteredImagesPage = () => {
   const [images, setImages] = useState([]);
@@ -21,7 +22,7 @@ const ScatteredImagesPage = () => {
   };
 
   return (
-    <div>
+    <div className='scattered-images-page'>
       <h1>10 Cats for You Because You're Awesome! </h1>
       <button><Link to="/">Back to Home</Link></button> 
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>

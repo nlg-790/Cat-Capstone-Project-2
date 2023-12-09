@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './ImagesPage.css';
 
 const ImagesPage = () => {
   const [images, setImages] = useState([]);
@@ -17,12 +18,12 @@ const ImagesPage = () => {
   };
 
   return (
-    <div>
+    <div className='images-page'>
       <h1>A Cat For You!</h1>
       <p>Click On Random Cat Below and Get a New Random Cat Every Time You Click!</p>
-      <button onClick={fetchImages}>Random Cat</button>
+      <button className='random-cat-btn' onClick={fetchImages}>Random Cat</button>
       {images.map(image => (
-        <img key={image.id} src={image.url} alt="Cat" width="200" />
+        <img key={image.id} src={image.url} alt="Cat" width="500" />
       ))}
       <button><Link to="/">Back to Home</Link></button> 
     </div>
