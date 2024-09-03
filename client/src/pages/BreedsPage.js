@@ -41,7 +41,7 @@ const BreedsPage = () => {
         <button onClick={handleSearch}>Search</button>
       </div>
       {hasSearched && filteredBreeds && filteredBreeds.map(breed => (
-        <div key={breed.id}>
+        <div key={breed.id} className='api-content'>
           <h2>{breed.name}</h2>
           <p><strong>Origin:</strong> {breed.origin}</p>
           <p><strong>Life Span:</strong> {breed.life_span} years</p>

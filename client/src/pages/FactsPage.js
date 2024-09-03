@@ -33,7 +33,7 @@ const FactsPage = () => {
       <h1>Cat Facts!</h1>
       <p>Get Ready to Be Surprised by Clicking on Get Random Cat Fact!</p>
       <button className='facts-btn' onClick={handleRandomFact}>Get Random Cat Fact</button>
-      {randomFact && <p>{randomFact}</p>}
+      {randomFact && <p className='random-fact'>{randomFact}</p>}
       <button><Link to="/">Back to Home</Link></button> 
     </div>
   );

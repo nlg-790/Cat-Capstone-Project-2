@@ -10,6 +10,7 @@
     color: #004d00;
     font-size: 5em;
     transition: color 0.3s ease;
+    
 }
 
 .list-of-breeds-page h1:hover {
@@ -21,8 +22,10 @@
     color: #582c0c; 
     font-size: 3em; 
     transition: color 0.3s ease; 
+    padding-left: 25px;
 }
 
 .intro-text:hover {
     color: #c58a6e; 
 }
+
