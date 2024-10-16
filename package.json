@@ -18,8 +18,10 @@
     "react-dom": "^18.0.0",
     "react-scripts": "latest",
     "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^x.x.x" 
   }
 }
-
 
 
