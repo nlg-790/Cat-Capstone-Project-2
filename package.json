@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "HOST=0.0.0.0 npm start --prefix client",
+    "start": "npm start --prefix client",
     "build": "npm run build --prefix client",
     "test": "npm test --prefix client",
     "eject": "npm run eject --prefix client"
